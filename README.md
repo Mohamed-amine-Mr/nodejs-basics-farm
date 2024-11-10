@@ -1,33 +1,39 @@
-Node Farm Project
-A Node.js practice project demonstrating fundamental concepts including:
+Node Farm Tutorial Project
+A Node.js application built as part of the Node.js learning journey. This project demonstrates fundamental Node.js concepts without using any frameworks or external dependencies.
+Learning Concepts Covered
 
-File system operations
-Server creation
+Core Node.js Modules (fs, http, url)
+Synchronous vs Asynchronous Operations
+Reading/Writing Files
+Creating a Web Server
 Routing
-Template handling
-Basic API development
+HTML Templating
+Basic API Creation
 
-Setup
+Project Features
 
-Clone the repository
-Run the server:
+File Operations
 
-bashCopynode index.js
+Reading product data from JSON file
+Synchronous and asynchronous operations
 
-Visit http://localhost:8000 in your browser
 
-Available Routes
+Web Server
 
-/ or /overview - View all products
-/product - Product details
-/api - JSON data endpoint
+Basic HTTP server setup
+Route handling
+Content-type headers
 
-Project Structure
-Copystarter/
-├── dev-data/
-│   └── data.json
-├── templates/
-│   ├── template-card.html
-│   ├── template-overview.html
-│   └── template-product.html
-└── index.js
+
+API Endpoints
+
+Product overview page (/ or /overview)
+Individual product page (/product)
+JSON data endpoint (/api)
+
+
+HTML Templating
+
+Dynamic template filling
+Product card templates
+Reusable HTML components
